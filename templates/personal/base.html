@@ -1,0 +1,49 @@
+{% load static %}  
+
+<!DOCTYPE html>
+<!-- upto 2 directory depth-->
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gunachandru-resume</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" media="print" onload="this.media='all'"/>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
+    </noscript>
+    <link href="{% static '/personal/css/font-awesome/css/all.min.css' %}" rel="stylesheet">
+    <link href="{% static '/personal/css/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+    <link href="{% static '/personal/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static '/personal/css/aos.css' %}" rel="stylesheet">
+    <link href="{% static '/personal/css/main.css' %}" rel="stylesheet">
+    <link rel="shortcut icon" href="{%  static '/personal/icons/favicon.ico' %}">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+  </head>
+
+
+<body>
+    {% block content %}
+    
+    
+    
+    {% endblock content %}
+    <script src="{% static '/personal/scripts/imagesloaded.pkgd.min.js' %}"></script>
+    <script src="{% static '/personal/scripts/masonry.pkgd.min.js' %}"></script>
+    <script src="{% static '/personal/scripts/BigPicture.min.js' %}"></script>
+    <script src="{% static '/personal/scripts/purecounter.min.js' %}"></script>
+    <script src="{% static '/personal/scripts/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static '/personal/scripts/aos.min.js' %}"></script>
+    <script src="{% static '/personal/scripts/main.js' %}"></script>
+</body>
+
+</html>
