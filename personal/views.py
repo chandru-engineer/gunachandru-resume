@@ -12,8 +12,6 @@ def index(request):
     objects = Projects.objects.all() ## get all objects of projects
     context = {'objects': objects}
 
-    for x in objects:
-        print(x.project_image)
 
     if request.method == "POST":
 
