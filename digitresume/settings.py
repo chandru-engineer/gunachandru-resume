@@ -89,11 +89,11 @@ WSGI_APPLICATION = 'digitresume.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'myproject',
-        'USER': 'myprojectuser',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',
-        'PORT': '',
+        'NAME': 'd3e67tbq55j8ct',
+        'USER': 'ukrygvzkzocpss',
+        'PASSWORD': 'b122084af535f9a2b06835adeea2ba906b6245b2787af923c94a409fcb32c7b4',
+        'HOST': 'ec2-34-194-40-194.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
